@@ -3,9 +3,16 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="sources/images/hand.png"/>
+  <meta name="keywords" content="portfolio">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Portfolio">
+  <meta name="abstract" content="antoine bruneau"/>
+  <meta name="author" content="antoine bruneau"/>
+  <meta name="copyright" content="&copy; AB 2022"/>
+  <meta name="date" content="2022-01-13"/>
+  <title>Mon Portfolio</title>
 </head>
 
 <body>
@@ -108,24 +115,30 @@
     </section>
     <section>
       <div>
-        <h2>Contact</h2>
-      </div>
-      <div>
-        <p>Nom prénom</p>
-        <p>input</p>
-      </div>
-      <div>
-        <p>e-mail</p>
-        <p>input</p>
-      </div>
-      <div>
-        <p>message</p>
-        <p>input</p>
+        <form method="" action="">
+          <div>
+              <label for="exampleInputEmail1">Adresse Mail</label>
+              <input type="email" class="" id="exampleInputEmail1" name="mail" placeholder="Entrez votre mail">
+          </div>
+          <div>
+              <label for="objet">Objet :</label>
+              <select class="" id="objet" name="objet">
+                  <option value="question">Question</option>
+                  <option value="remarque">Remarque</option>
+                  <option value="autre">Autre</option>
+              </select>
+          </div>
+          <div class="">
+              <label for="message">Message :</label>
+              <textarea class="" id="message" rows="4" name="message"></textarea>
+          </div>
+          <button type="submit" class="">Valider</button>
+      </form>
       </div>
     </section>
   </main>
   <footer>
-    <p>Mon Portfolio Copyright AB 2022</p>
+    <p>Mon Portfolio @ AB 2022</p>
   </footer>
 </body>
 
